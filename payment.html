@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Payment - CINEBOOK</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+        <nav class="navbar">
+
+            <h1 class="logo">CINEBOOK</h1>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="page1.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="movies.html">Movies</a>
+                </li>
+
+                <li>
+                    <a href="booking.html">Booking</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= PAYMENT PAGE ================= -->
+
+    <main class="payment-page">
+
+        <section class="payment-header">
+
+            <h1 class="payment-title">
+                Complete Your Payment
+            </h1>
+
+            <p class="payment-subtitle">
+                Review your booking details and select a payment method.
+            </p>
+
+        </section>
+
+
+        <!-- Booking Summary -->
+
+        <section class="payment-summary">
+
+            <h2>Booking Summary</h2>
+
+            <div class="booking-info">
+
+                <p>
+                    <strong>Movie:</strong>
+                    Interstellar
+                </p>
+
+                <p>
+                    <strong>Date:</strong>
+                    25 August 2026
+                </p>
+
+                <p>
+                    <strong>Showtime:</strong>
+                    7:30 PM
+                </p>
+
+                <p>
+                    <strong>Screen:</strong>
+                    Screen 1
+                </p>
+
+                <p>
+                    <strong>Selected Seats:</strong>
+                    A3, A4
+                </p>
+
+                <p>
+                    <strong>Number of Seats:</strong>
+                    2
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Payment Summary -->
+
+        <section class="payment-summary">
+
+            <h2>Payment Summary</h2>
+
+            <div class="price-details">
+
+                <p>
+                    <span>Ticket Price</span>
+                    <span>₹300</span>
+                </p>
+
+                <p>
+                    <span>Convenience Fee</span>
+                    <span>₹30</span>
+                </p>
+
+                <hr>
+
+                <p class="total-price">
+                    <span>Total Amount</span>
+                    <span>₹330</span>
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Payment Method -->
+
+        <section class="payment-method-section">
+
+            <form
+                action="confirmation.html"
+                class="payment-form"
+            >
+
+                <h2>
+                    Choose Payment Method
+                </h2>
+
+
+                <div class="payment-options">
+
+
+                    <label class="payment-option">
+
+                        <input
+                            type="radio"
+                            id="upi"
+                            name="payment-method"
+                            value="upi"
+                        >
+
+                        <span class="payment-option-text">
+                            UPI
+                        </span>
+
+                    </label>
+
+
+                    <label class="payment-option">
+
+                        <input
+                            type="radio"
+                            id="card"
+                            name="payment-method"
+                            value="card"
+                        >
+
+                        <span class="payment-option-text">
+                            Credit / Debit Card
+                        </span>
+
+                    </label>
+
+
+                    <label class="payment-option">
+
+                        <input
+                            type="radio"
+                            id="net-banking"
+                            name="payment-method"
+                            value="net-banking"
+                        >
+
+                        <span class="payment-option-text">
+                            Net Banking
+                        </span>
+
+                    </label>
+
+
+                    <label class="payment-option">
+
+                        <input
+                            type="radio"
+                            id="cash"
+                            name="payment-method"
+                            value="cash"
+                        >
+
+                        <span class="payment-option-text">
+                            Cash at Counter
+                        </span>
+
+                    </label>
+
+
+                </div>
+
+
+                <!-- Payment Buttons -->
+
+                <div class="payment-actions">
+
+                    <button
+                        class="pay-btn"
+                        type="submit"
+                    >
+                        Pay ₹330
+                    </button>
+
+
+                    <button
+                        class="reset-btn"
+                        type="reset"
+                    >
+                        Reset
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+
+        <!-- Back Button -->
+
+        <div class="payment-back">
+
+            <a
+                class="back-btn"
+                href="seats.html"
+            >
+                ← Back to Seats
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+
+        <section class="footer-section">
+
+            <h3>CINEBOOK</h3>
+
+            <p>
+                Your Movie. Your Seat. Your Experience.
+            </p>
+
+        </section>
+
+
+        <section class="footer-section">
+
+            <h3>Quick Links</h3>
+
+            <nav class="footer-nav">
+
+                <ul>
+
+                    <li>
+                        <a href="page1.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="movies.html">
+                            Movies
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="booking.html">
+                            Booking
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </section>
+
+
+        <section class="footer-section">
+
+            <h3>Customer Support</h3>
+
+            <nav class="footer-nav">
+
+                <ul>
+
+                    <li>
+                        <a href="">
+                            Help Center
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            Cancellation Policy
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            Terms & Conditions
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            Booking Support
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </section>
+
+
+        <section class="footer-section">
+
+            <h3>Contact Us</h3>
+
+            <a href="mailto:support@cinebook.com">
+                support@cinebook.com
+            </a>
+
+            <br>
+
+            <a href="tel:+919876543210">
+                +91 98765 43210
+            </a>
+
+            <address>
+                New Delhi, India
+            </address>
+
+        </section>
+
+
+        <p class="footer-bottom">
+            &copy; 2026 CINEBOOK. All Rights Reserved.
+        </p>
+
+
+    </footer>
+
+</body>
+
+</html>
